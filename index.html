@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,12 +36,13 @@
     <div class="col-md-12 text-center">
       
       
-      <input class="hidden" id="nombre" type="text" placeholder="nombre">
-      <textarea name="porhacer" class="form-control" id="cajatarea" rows="3" placeholder="Añade tu nueva tarea"></textarea>
+      
+      <textarea name="porhacer" class="form-control error" id="cajaTarea" rows="3"  placeholder="Añade tu nueva tarea"></textarea>
       <div class="text-left">
-        <button  onclick="agregaTarea()" class="text-left" id="boton"> + Añadir Tarea</button>
+        <button class="text-left" id="boton"> + Añadir Tarea</button>
 
-        <div  id="contenedor-tareas" class="checkbox text-left" >
+        <div  id="contenedor-tareas" class="text-left">
+        <input type="checkbox" name="checkbox" class="checkbox">
 
         </div>
       </div>
